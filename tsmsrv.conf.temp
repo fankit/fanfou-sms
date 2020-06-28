@@ -1,0 +1,22 @@
+port = 8080
+bind = 127.0.0.1
+
+[log]
+level = info #debug info err fata
+acc_path = /tmp/tsmsrv.log #debug info 日志路径
+err_path = /tmp/tsmsrv.err.log #错误日志路径
+max_size = 100 # MB
+max_backups = 7 #份
+max_age = 7 # days
+
+
+
+
+[sms]
+phone_numbers = 10086,10000,10010 #手机号用逗号隔开
+sign =  #腾讯签名内容
+templateid = #腾讯申请的模板id
+appid =  #appid
+appkey =   #腾讯APPkey
+secretid =  #腾讯secretid
+secretkey = #腾讯secretkey

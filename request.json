@@ -1,0 +1,16 @@
+{
+  "title": "My alert",
+  "ruleId": 1,
+  "ruleName": "Load peaking!",
+  "ruleUrl": "http://url.to.grafana/db/dashboard/my_dashboard?panelId=2",
+  "state": "ok",
+  "imageUrl": "http://img.image.url",
+  "message": "这是一条测试告警短信",
+  "evalMatches": [
+    {
+      "metric": "requests",
+      "tags": {"s":"xxxxx"},
+      "value": 122
+    }
+  ]
+}
